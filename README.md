@@ -9,7 +9,7 @@ equation that describes the thermochemistry.
 In this problem we take one time series, and use this to train the neuralODE.
 
 The initial conditions of the one sample  are:
-- The total density of the system is: $n_{tot} = 413 \;\mathrm{cm}^{-3}$
+- The total density of the system is: $n_{tot} = 413 \mathrm{cm}^{-3}$
 - The fractional abundance of oxygen is: $f_O = 3\times10^{-4}$
 - The fractional abundance of carbon is $f_C = 5\times10^{-4}$
 - The initial temperature of the gas is $T=242 \mathrm{K}$
