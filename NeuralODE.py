@@ -431,7 +431,7 @@ if __name__ in "__main__":
     np.save(f"{save_file_path}/model_00_pred.npy", model_00_pred)
     np.save(f"{save_file_path}/model_00_true.npy", model_00_true)
     
-    # Making predictions on the validation set and saving them
+    # Making predictions on the validation set
     start = time.time()
     pred, true = make_predictions(mlp, val_av, val_data, frac = fracs[-1], 
                                   params = df_val_params)
